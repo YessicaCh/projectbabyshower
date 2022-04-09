@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Schoolbell&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-image: linear-gradient(grey,3%,white);
+    /*font-family: "Delius Swash Caps",'Schoolbell';*/
+    
+    /*background: radial-gradient(#29D5C9 15%, transparent 0),
+              radial-gradient(#29D5C9 15%, transparent 0), #BFFFFB;
+    background-size: 50px 50px;
+    background-position: 0 0, 25px 25px;*/
+}
+
+.headMain{
+    width: 100%;
+    height: inherit;
+    /*border-style: solid;
+    border-color: red;*/
+    background-image: linear-gradient(grey,3%,white);
+   
+    background-color: var(--dark-cyan)!important;
+    background: url(./cloudback3.jpg), url(./images/bg-pattern-bottom.svg);
+    
+}
+.headMain .Main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*background: url(./elefanteRm.png), url(./images/bg-pattern-bottom.svg);*/
+
+    
+
+    /*border-style: solid;
+    border-color: black;*/
+    /*background: radial-gradient(#29D5C9 15%, transparent 0),
+              radial-gradient(#29D5C9 15%, transparent 0), #BFFFFB;
+    background-size: 50px 50px;
+    background-position: 0 0, 25px 25px;*/
+}
+
+.headMain .title{
+    width: auto;
+    /*height: 20%;
+    border-style: solid;
+    border-color: green;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.headMain .title h3{
+  margin: 20px;
+  font-size: 30px;
+  font-family: 'Schoolbell', cursive;
+  /*border-style: solid;
+  border-color: navy;*/
+}
+.headMain .title h1{
+    margin: 5px;
+    margin-left: 100px;
+    padding: 8px 8px;
+    font-size: 90px;
+    font-family: "Delius Swash Caps",'Schoolbell';
+
+    /*font-family: 'Nunito', sans-serif;*/
+    /*font-size: 26px;*/
+    /*border: 2px solid black;
+    border-radius: 30px;
+    background-image: radial-gradient(white,80%,blue);*/
+}
+
+.headMain .headtwo{
+    width: auto;
+    height: 75%;
+    /*border-style: solid;
+    border-color: black;*/
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*display: inline-block;
+    position: relative;*/
+}
+
+.headtwo .imgMain {
+    width: 65%;
+    /*margin: 10px 10px;
+    border-style: solid;
+    border-color: red;*/
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    
+}
+
+.headtwo .imgMain img{
+    width: 390px;
+    height: 360px;
+    position: relative;
+    right: 110px;
+    /*border-style: solid;
+    border-color: yellow;*/
+}
+
+.headMain .headtwo .datesplaces{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*padding: 50px 50px;
+    background-color: black;*/
+    background-image: radial-gradient(white,60%,grey);
+    font-family: 'Schoolbell', cursive;
+    /*background: url(./Tarjet.jpg);*/
+    color: black;
+    position: relative;
+    left: 180px;
+    margin: 100px 100px;
+    border-radius: 50px;
+    /*border-radius: 50%;*/
+    
+}
+
+.regalos{
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;
+     border-style: solid;
+    border-color: green;*/
+}
+
+.regalos .lista{
+    /*border-style: solid;
+    border-color: black;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-img{
+    margin: 5px 5px;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: #f5f5f5;
+    border: 2px solid black;
+    
+    margin: 0;
+	padding: 1.8rem;
+	background-color: aliceBlue;
+	box-shadow: -0.035rem 0.03rem 0.3rem rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	position: relative;
+}
+
+/*Carita del bebe */
+.container {
+    background-color: #29D5C9;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 30px 30px;
+    position: relative;
+    /*border-style: solid;
+    border-color: blue;*/
+  }
+  
+  .head {
+    background-color: #FDE9DA;
+    height: 50%;
+    width: 60%;
+    border-radius: 50%;
+    position: absolute;
+    top: 26%;
+    left: 20%;
+    box-shadow: 0px 3px 20px #177871;
+  }
+  
+  .eye {
+    background-color: #333;
+    height: 5.5%;
+    width: 5.5%;
+    border-radius: 50%;
+    position: absolute;
+    top: 53%;
+    animation: blink 2s alternate infinite;
+  }
+  
+  .eye:after {
+    content: '';
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    height: 25%;
+    width: 25%;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  
+  @keyframes blink {
+    0%, 95% {
+      transform: scaleY(1);
+    }
+    100% {
+      transform: scaleY(0.1);
+    }
+  }
+  
+  .eye-left {
+    left: 35%;
+  }
+  
+  .eye-right {
+    right: 35%;
+  }
+  
+  .ear {
+    background-color: #FDE9DA;
+    height: 10%;
+    width: 8%;
+    border-radius: 50%;
+    position: absolute;
+    top: 48%;
+  }
+  
+  .ear-left {
+    left: 16%;
+    box-shadow: -4px 0px 4px rgba(23, 120, 113, 0.44);
+  }
+  
+  .ear-right {
+    right: 16%;
+    box-shadow: 4px 0px 4px rgba(23, 120, 113, 0.44);
+  }
+  
+  .cheek {
+    background-color: #FFB7BF;
+    height: 4.5%;
+    width: 5%;
+    border-radius: 50%;
+    position: absolute;
+    top: 60%;
+  }
+  
+  .cheek-left {
+    left: 30%;
+  }
+  
+  .cheek-right {
+    right: 30%;
+  }
+  
+  .hair {
+    background-color: transparent;
+    position: absolute;
+    top: 25.5%;
+    left: 44%;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    border-left: 10px solid #663322;
+    border-bottom: 5px solid #663322;
+  }
+  
+  .pacifier {
+    height: 8.5%;
+    width: 8.5%;
+    position: absolute;
+    top: 62%;
+    left: 46.1%;
+    animation: move 200ms linear infinite alternate;
+  }
+  
+  @keyframes move {
+    to {
+      transform: translateY(-1px) scale(0.98);
+    }
+  }
+  
+  .pacifier-middle {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(rgb(223, 161, 255), rgb(163, 121, 235));
+    border-radius: 50%;
+  }
+  
+  .pacifier-side {
+    position: absolute;
+    top: -5%;
+    height: 110%;
+    width: 105%;
+    border: 8px solid rgb(163, 121, 235);
+    opacity: 0.8;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+  
+  .pacifier-side-left {
+    right: 60%;
+  }
+  
+  .pacifier-side-right {
+    left: 60%;
+  }
